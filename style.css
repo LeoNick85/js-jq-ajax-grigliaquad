@@ -1,0 +1,63 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    color: yellow;
+    background-image: url("https://www.calcioweb.eu/wp-content/uploads/2019/04/9531738_small.jpg");
+    background-position: center;
+    border-bottom: 2px solid black;
+    text-align: center;
+    padding: 40px;
+}
+header h1 {
+    display: inline-block;
+    padding: 8px;
+    background-color: rgba(0,0,0,0.6);
+    text-decoration: underline;
+}
+
+body {
+    background-image: url("https://i.pinimg.com/736x/11/82/37/118237c2a18eee8b0989d8b0f913775f.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#container-grid {
+    margin:auto;
+    margin-top: 40px;
+    width: 420px;
+    height: 420px;
+    background-color: grey;
+    border: 13px outset green;
+    box-sizing: content-box;
+}
+
+.box {
+    width: 70px;
+    height: 70px;
+    float:left;
+    background-color: #b5cdf5;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+}
+
+.box:hover {
+    background-color: blue;
+    color: white;
+}
+
+.box.yellow {
+    background-color: yellow;
+    color: red;
+}
+
+.box.green {
+    background-color: green;
+    color: red;
+}
