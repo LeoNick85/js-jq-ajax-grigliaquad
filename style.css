@@ -45,6 +45,7 @@ body {
     justify-content: center;
     align-items: center;
     color: red;
+    font-size: 45px;
 }
 
 .box:hover {
@@ -55,9 +56,13 @@ body {
 .box.yellow {
     background-color: yellow;
     color: red;
+    font-weight: bold;
+    text-decoration: overline;
 }
 
 .box.green {
     background-color: green;
     color: red;
+    font-weight: bold;
+    text-decoration: underline;
 }
