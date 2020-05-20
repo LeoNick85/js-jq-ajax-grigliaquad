@@ -12,7 +12,7 @@ for (i = 0; i < 36; i++) {
 }
 
 //In caso di click su un box, genero un numero, cambio di conseguenza il background e sostituisco il contenuto del box con il numero
-$("#container-grid .box").click(function(){
+$("#container-grid .box").one("click", function(){
     var clicked_box = $(this);
     //Faccio chiamata ajax al generatore di numeri e al suo interno svolgo il resto del procedimento in caso di successo
     $.ajax({
